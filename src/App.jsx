@@ -15,7 +15,17 @@ function App() {
           rotation={0}
         />
       </div>
-
+      {/*Navbar*/}
+      <div className="navbar">
+        <span classNAme="navbar-title"></span>
+        <div className="navbar-links">
+          <span>Home</span>
+          <span>Projects</span>
+          <span>Experience</span>
+          <span>Skills</span>
+          <span>Contact</span>
+        </div>
+      </div>
       {/* Center circle with image */}
       <div className="center-circle">
         <img src="/profile.jpg" alt="Profile" />
