@@ -80,14 +80,14 @@
   padding: 16px 40px; 
   font-size: 1.2rem;
   
-  background-color: #fbbf24 !important;
-  color: #112250 !important;
-  border: none !important;
+  background-color: #330a75;
+  color: #112250;
+  border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-weight: bold;
-  box-shadow: 0 4px 15px rgba(251, 191, 36, 0.4);
+  box-shadow: 0 4px 15px rgba(34, 22, 143, 0.4);
 }
 
 .contact-btn:hover {
@@ -111,11 +111,13 @@
     top: auto;
     left: auto;
     transform: none;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     width: 250px; 
     height: 250px;
-    min-width: unset;
-    min-height: unset;
+    min-width: 250px;
+    min-height: 250px;
+    flex-shrink: 0;
+    border-width: 3px;
   }
 
   .about-content {
