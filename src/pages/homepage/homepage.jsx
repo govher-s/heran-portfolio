@@ -17,7 +17,6 @@ function HomePage() {
             </div>
 
             <div className="center-circle">
-                {/* Ensure profile.jpg is inside the 'public' folder in your root */}
                 <img src="/profile.jpg" alt="Profile" />
             </div>
 
