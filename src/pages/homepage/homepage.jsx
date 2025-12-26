@@ -1,6 +1,7 @@
 import React from 'react';
 import Silk from '../../components/Silk'; 
 import './homepage.css';
+import profilePic from '../../assets/profile.jpg';
 
 function HomePage() {
     return(
