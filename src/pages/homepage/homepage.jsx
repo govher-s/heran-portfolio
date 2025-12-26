@@ -17,7 +17,7 @@ function HomePage() {
             </div>
 
             <div className="center-circle">
-                <img src="/profile.jpg" alt="Profile" />
+                <img src={profilePic} alt="Profile" />
             </div>
 
             <div className='about-content'>
@@ -33,7 +33,7 @@ function HomePage() {
                     <strong> Business Development</strong>, <strong>Operations</strong>, 
                     and <strong>Client Relations</strong>.
                 </p>
-            <button className='connect-btn'>Let's Connect</button>
+            <button className='contact-btn'>Let's Connect</button>
 
             </div>
         </div>
