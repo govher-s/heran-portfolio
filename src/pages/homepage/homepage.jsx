@@ -19,6 +19,23 @@ function HomePage() {
                 {/* Ensure profile.jpg is inside the 'public' folder in your root */}
                 <img src="/profile.jpg" alt="Profile" />
             </div>
+
+            <div className='about-content'>
+                <h1>Hi, my name is Heran Habte</h1>
+                <h2>A Business Economics Student</h2>
+                <p>
+                    I am a Senior student at <strong>South Dakota State University</strong>,
+                    majoring in Business Economics with a minor in Management. My academic foundation, 
+                    combined with hands-on leadership experience, has shaped me into someone 
+                    who thrives where people, strategy, and problem-solving intersect.
+                    <br /><br />
+                    I am driven, adaptable, and currently exploring opportunities in 
+                    <strong> Business Development</strong>, <strong>Operations</strong>, 
+                    and <strong>Client Relations</strong>.
+                </p>
+            <button className='connect-btn'>Let's Connect</button>
+
+            </div>
         </div>
     );
 }
