@@ -2,6 +2,7 @@ import React from 'react';
 import Silk from '../../components/Silk'; 
 import './homepage.css';
 import profilePic from '../../assets/profile.jpg';
+import Navbar from './navbar';
 
 function HomePage() {
     return(
@@ -15,7 +16,7 @@ function HomePage() {
                     rotation={0}
                 />
             </div>
-
+            <Navbar />
             <div className="center-circle">
                 <img src={profilePic} alt="Profile" />
             </div>

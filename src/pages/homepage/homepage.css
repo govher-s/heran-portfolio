@@ -59,6 +59,7 @@
   font-weight: 700;
   background: linear-gradient(to right, #ffffff, #a5b4fc);
   -webkit-background-clip: text;
+  background-clip: text; 
   -webkit-text-fill-color: transparent;
 }
 
@@ -80,7 +81,7 @@
   padding: 16px 40px; 
   font-size: 1.2rem;
   
-  background-color: #330a75;
+  background-color: #ffffff96;
   color: #112250;
   border: none;
   border-radius: 50px;
@@ -91,9 +92,10 @@
 }
 
 .contact-btn:hover {
-  background-color: #0f0bf5;
+  background-color: #112250;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(68, 36, 251, 0.6);
+  box-shadow: 0 6px 20px rgba(68, 36, 251, 0.425);
+  color: white;
 }
 
 @media (max-width: 1100px) {
