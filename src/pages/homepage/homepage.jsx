@@ -34,7 +34,15 @@ function HomePage() {
                     <strong> Business Development</strong>, <strong>Operations</strong>, 
                     and <strong>Client Relations</strong>.
                 </p>
-            <button className='contact-btn'>Let's Connect</button>
+            <button className='contact-btn'>
+                <a href="https://www.linkedin.com/in/heran-habte/"
+                target="blank"
+                rel="noreferrer"
+                className="connectBtn"
+                >
+                    Let's Connect
+                </a>
+            </button>
 
             </div>
         </div>

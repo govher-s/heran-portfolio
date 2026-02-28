@@ -19,6 +19,11 @@
   text-decoration: none;
   cursor: pointer;
 }
+.navbar-logo:hover,
+.navbar-logo:visited,
+.navbar-logo:active {
+    color: white;
+}
 
 .nav-links {
   display: flex;

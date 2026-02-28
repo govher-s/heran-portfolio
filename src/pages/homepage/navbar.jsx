@@ -13,7 +13,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        Heran Habte
+        <Link to="/" className="navbar-logo">
+            Heran Habte
+        </Link>
       </div>
 
       <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
