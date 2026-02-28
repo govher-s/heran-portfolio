@@ -89,7 +89,7 @@ function Experience() {
                 { type: "bold", text: "Technical Skills" },
                 { type: "bullet", text: "Microsoft Excel (Advanced): PivotTables, Functions, Data Analysis" },
                 { type: "bullet", text: "Tableau: Interactive Dashboards and Data Visualization" },
-                { type: "bullet", text: "Data-Driven Decision Making" },
+                { type: "bullet", text: "Data Driven Decision Making" },
                 { type: "bullet", text: "Financial Analysis and Budgeting" }
             ]
         }
