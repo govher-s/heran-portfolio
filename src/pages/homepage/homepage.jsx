@@ -6,7 +6,7 @@ import Navbar from './navbar';
 
 function HomePage() {
     return(
-        <div className='home-container'>
+        <div className='home-container' id="home">
             <div className="silk-background">
                 <Silk
                     speed={5}
